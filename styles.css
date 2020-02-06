@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css?family=Poller+One");
+.container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+  text-align: center;
+}
+.wrapper {
+  flex: auto;
+  align-items: center;
+  flex-direction: column;
+  min-width: 350px;
+}
+h1 {
+  font-family: "Poller One", cursive;
+  font-size: 1rem;
+  line-height: 2rem;
+  margin-top: 2rem;
+}
+span {
+  font-family: "Poller One", cursive;
+  font-size: 2rem;
+  padding: 10px;
+}
+.text-wrapper svg {
+  width: 24px;
+  height: 24px;
+}
+.svg-holder {
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+.svg {
+  width: 100%;
+  height: 100%;
+  background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/69eab7c8-8e59-4a08-a460-b9d99df32df8/dc3eg36-f05cf1ca-d985-4226-a319-720211e544a4.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY5ZWFiN2M4LThlNTktNGEwOC1hNDYwLWI5ZDk5ZGYzMmRmOFwvZGMzZWczNi1mMDVjZjFjYS1kOTg1LTQyMjYtYTMxOS03MjAyMTFlNTQ0YTQuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.BUJ61lLqRxGW8hNC03C4vFxl-OPNbWbKzzUbIDU3JfM);
+}
+body {
+    background-color: rgb(11, 111, 177);
+}
+}
+@media (max-width: 1300px) {
+  .svg {
+    background-image: url(http://images6.fanpop.com/image/photos/35600000/-Coraline-coraline-35603545-200-200.jpg);
+  }
+  body {
+    background-color: purple;
+}
+}
+@media (max-width: 1200px) {
+  .svg {
+    background-image: url(https://66.media.tumblr.com/1c01d62182ce7dda4dbb5718a81be9f6/c52c70630111c540-7d/s640x960/db952a4637421eebc0e06f9cae6f0e86c97c3a72.gif);
+  }
+  body {
+    background-color: rgb(240, 198, 10);
+}
+}
+@media (max-width: 1100px) {
+  .svg {
+    background-image: url(http://images6.fanpop.com/image/photos/37900000/Coraline-Jones-coraline-jones-37952150-200-200.jpg);
+  }
+  body {
+    background-color: rgb(0, 128, 122);
+}
+}
+@media (max-width: 1000px) {
+  .svg {
+    background-image: url(https://cdn-fastly.hometalk.com/media/profile/2017/03/10/21673988_1.jpg?size=200x200);
+  }
+  body {
+    background-color: green;
+}
+}
+@media (max-width: 900px) {
+  .svg {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrwzUj0EniKb7jcaYwzSEGdAGGKz2SAeiyjrpPg6jpbEOKnAVSAw&s);
+  }
+  body {
+    background-color: purple;
+}
+}
+@media (max-width: 800px) {
+  .svg {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYhPR33Sh8pYB3MZTDdiL6OhdEluJQyiz2GCPH5nzU3Bc3FKLLhA&s);
+  }
+  body {
+    background-color: orangered;
+}
+}
+@media (max-width: 700px) {
+  .svg {
+    background-image: url(https://vignette.wikia.nocookie.net/coraline/images/a/ae/Tumblr_maxz8zuKXF1qb5rh8o1_500.gif/revision/latest/window-crop/width/200/x-offset/121/y-offset/0/window-width/261/window-height/260?cb=20190716174009);
+  }
+  body {
+    background-color: darkred;
+    }
+}
+@media (max-width: 600px) {
+  .svg {
+    background-image: url(https://i.gifer.com/origin/ac/ac17aaf50749c900e305778e73e91412_w200.gif);
+  }
+  body {
+      background-color: purple;
+  }
+}
+@media (max-width: 540px) {
+  h1 {
+    font-size: 0.7rem;
+    margin-top: 1rem;
+    line-height: 1.6rem;
+  }
+  span {
+    font-size: 1.2rem;
+    padding: 5px;
+  }
+  .text-wrapper svg {
+    width: 14px;
+    height: 14px;
+  }
+}
