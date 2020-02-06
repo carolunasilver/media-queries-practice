@@ -40,7 +40,7 @@ span {
 body {
     background-color: rgb(11, 111, 177);
 }
-}
+
 @media (max-width: 1300px) {
   .svg {
     background-image: url(http://images6.fanpop.com/image/photos/35600000/-Coraline-coraline-35603545-200-200.jpg);
@@ -119,3 +119,4 @@ body {
     width: 14px;
     height: 14px;
   }
+}
